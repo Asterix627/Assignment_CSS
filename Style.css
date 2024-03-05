@@ -1,9 +1,5 @@
-.container-image {
-    border-radius: 24px;  
-    width: 816px;
-    height: 1076px; 
-}
 
+/*import font*/
 @font-face {
     font-family: sfprodisp;
     src: url(SF-Pro-Display-Regular.otf);
@@ -16,29 +12,65 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap');
 
+/* styling font */
 .sfpromd {
     font-family: sfpromd;
-    font-size: 36px;
-    color: #0C1421;
 }
 
 .sfprodisp {
     font-family: sfprodisp;
-    font-size: 20px;
-    color: #0C1421;
 }
 
 .roboto {
     font-family: "Roboto", sans-serif;
 }
 
+/* styling button & form */
 .button {
-    border: none;
+    border-style: solid;
+    width: 342px;
+    height: 44px;
+    border-width: 0px;
     background-color: #162D3A;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
     color: white;
-    width: 388px;
-    height: 52px;
-    border-radius: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*container*/
+
+.form-div {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 342px;
+    height: 44px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D4D7E3;
+    background-color: #F3F7FB;
+    color: black;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    font-size: 16px;
+}
+
+.container-image {
+    width: 342px;
+    height: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.textdalem:-webkit-input-placeholder {
+    color: #8897AD;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
 }
