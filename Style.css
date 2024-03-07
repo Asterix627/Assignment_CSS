@@ -1,3 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: sfprodisp;
+    src: url(SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+    font-family: sfpromd;
+    src: url(SF-Pro-Rounded-Medium.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 388px;
+}
+ 
+.container2 img {
+    width: 100%;
+    display: flex;
+    max-width: 816px;
+    max-height: 1076px;
+    border-radius: 24px;
+    align-items: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.welcome h1 {
+    font-family: sfpromd;
+    font-size: 36px;
+}
+
+.welcome p {
+    font-family: sfprodisp;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.loginform {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+.loginform label {
+        
+}
+
+.loginform input {
+    width: 100%;
+    height: 48px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: #F7FBFF;
+    border-color: #D4D7E3;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.loginform input:-webkit-placeholder {
+    color: #8897AD;
+    font-family: "Roboto", sans-serif;
+}
+
+.loginform input:hover {
+    transform: scale(1.025);
+}
+
+.Forgot {
+    text-align: right;
+}
+
+button {
+    width: 100%;
+    height: 52px;
+    border-radius: 12px;
+    background-color: #162D3A;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+button:hover {
+    background-color: #406880;
+    transform: scale(1.025);
+}
+
+/*
 .container-image {
     border-radius: 24px;  
     width: 816px;
@@ -32,3 +137,13 @@
     font-family: "Roboto", sans-serif;
 }
 
+.button {
+    border: none;
+    background-color: #162D3A;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 388px;
+    height: 52px;
+    border-radius: 10px;
+}
