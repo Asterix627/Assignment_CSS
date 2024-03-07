@@ -80,6 +80,11 @@ body {
     transition: 100ms;
 }
 
+.loginform footer {
+    opacity: 50%;
+    text-align: center;
+}
+
 .Forgot {
     text-align: right;
 }
@@ -97,5 +102,5 @@ button {
 button:hover {
     background-color: #23465a;
     transform: scale(1.025);
-    transition: 100ms;
+    transition: 120ms;
 }
